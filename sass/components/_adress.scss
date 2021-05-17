@@ -1,0 +1,14 @@
+.adress {
+  font-style: inherit;
+}
+.adress__item {
+  display: block;
+}
+
+.adress__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.adress__item--transp {
+  color: var(--transp-text-color);
+}
