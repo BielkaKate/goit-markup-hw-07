@@ -1,14 +1,14 @@
-.adress {
+.address {
   font-style: inherit;
 }
-.adress__item {
+.address__item {
   display: block;
 }
 
-.adress__item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.adress__item--transp {
+.address__item--transp {
   color: var(--transp-text-color);
 }
